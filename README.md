@@ -48,3 +48,13 @@ Docker Composeで`docker compose up -d`を実行してコンテナーを起動�
 
 ### 備考
 - api-containerにおいても同様の事象が発生した場合、同じ手順で対応可能
+
+
+
+
+githubにあるdocker-compose.ymlを使用してローカルでデプロイする方法
+
+git clone https://github.com/【ユーザー名】/【リポジトリ名】.git
+cd ".\【リポジトリ名】"
+
+docker compose up -d
